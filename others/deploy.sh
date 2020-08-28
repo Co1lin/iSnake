@@ -1,1 +1,1 @@
-/Applications/Qt/5.13.1/clang_64/bin/macdeployqt /Users/colin/Qt/build-iSnake-Desktop_Qt_5_13_1_clang_64bit-Release/iSnake.app
+/Applications/Qt/5.13.1/clang_64/bin/macdeployqt /Users/colin/Qt/iSnake/build-mac/iSnake.app
