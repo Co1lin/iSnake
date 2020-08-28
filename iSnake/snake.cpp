@@ -111,7 +111,7 @@ void Snake::setDirection(const Direction& _direction)
     if ((direction == MoveLeft && _direction == MoveRight) ||
         (direction == MoveRight && _direction == MoveRight) ||
         (direction == MoveUp && _direction == MoveDown) ||
-         (direction == MoveDown && _direction == MoveUp))
+        (direction == MoveDown && _direction == MoveUp))
         return;
     else if ((direction == ForbidRight && _direction == MoveRight) ||
              (direction == ForbidLeft && _direction == MoveLeft) ||
