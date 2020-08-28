@@ -10,7 +10,7 @@ A classic game "snake", the coursework for Qt programming, in summer term 2020.
 
 The program for macOS is "iSnake.app", in "iSnake.app.zip".  
 
-The file "logo.snake" is a saved game file, with the snake, food, and obstacles organized  in a special shape which reads "iSnake" as the picture above.  You can load this file to the game and play it!  
+The file "logo.snake" is a saved game file, with the snake, food, and obstacles organized  in a special shape which reads "iSnake" as the picture above.  You can load this file in the game and play it!  
 
 ## Design Document
 
@@ -23,7 +23,7 @@ The main structure and logic of this program is shown by the picture below.
 
 MainWindow is a child class of QMainWindow, and its objects holds all of the items of the game. MainWindow controls the class "Game", which can be regarded as a game controller, and the game controller controls the scene.  
 
-The items below are placed in nested grid layout. And they are set with proper "size policy" in Qt Designer. So users can change the windows's size, and the items will strech automatically.  
+The items below are placed in nested grid layout. And they are set with proper "size policy" in Qt Designer. So users can change the windows' size, and the items will strech automatically.  
 
 #### Actions (Tool Bar, Menu)
 
