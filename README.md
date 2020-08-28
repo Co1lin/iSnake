@@ -36,7 +36,7 @@ MainWindow use the slots of actions to respond the operation of player, and call
 #### Buttons
 
 The buttons at the bottom are connected to corresponding actions, from their signals to actions' slots, when MainWindow is constructing.  
-When an action is triggered, it will set the availability of these buttons in its slots. So they tool bar, menu, and buttons, are connected together.  
+When an action is triggered, it will set the availability of these buttons in its slots. So the tool bar, menu, and buttons, are connected together.  
 
 #### Widgets
 
