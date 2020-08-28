@@ -101,7 +101,7 @@ Food has a 2-D QPointF which shows its position.
 
 ##### Wall
 
-The wall is fixed and has no data. It shows in a pre-set shape.  
+The wall is fixed and has no data. It shows as a pre-set shape.  
 
 #### Obstacle
 
