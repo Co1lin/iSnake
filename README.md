@@ -79,7 +79,7 @@ The main architecture of this program is based on the Graphics View Framework.
 
 #### MyScene
 
-Class MyScene derived from QGraphicsObject, which has both the property of QGraphicsItem and QObject. The reason of choosing QGraphicsObject is that QGraphicsItem can not deal with slots and signals.  
+Class MyScene derives from QGraphicsObject, which has both the property of QGraphicsItem and QObject. The reason of choosing QGraphicsObject is that QGraphicsItem can not deal with slots and signals.  
 
 MyScene overrides the "mousePressEvent". In the function, it will emit a signal to report the position of QGraphicsSceneMouseEvent. And in the game controller, the signal is connected to function changeObstacle. So an obstacle may be added by a mouse click.  
 
