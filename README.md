@@ -85,9 +85,9 @@ MyScene overrides the "mousePressEvent". In the function, it will emit a signal 
 
 MyScene provides a "scene" for items. It is the basic function of QGraphicsScene. GGraphicItem like Snake, Food, Wall, and Obstacle, can be added to the scene, and the scene will manage them, display them, call the function "advance" which will call function of the same name "advance" of each items on it to push forward the scene. It also provides collision detecting function, so it's easy to know when the snake collides with food, obstacle, or wall.  
 
-#### QGraphicsItems
+#### QGraphicsItem
 
-As what is mentioned above, snake, food, obstable, and wall, are child class of QGraphicsItems. They are managed by MyScene.  
+As what is mentioned above, snake, food, obstable, and wall, are child class of QGraphicsItem. They are managed by MyScene.  
 
 The key part of implementing QGraphicsItem's child class, or to say, defining a customized QGraphicsItem in order to manage some shapes by QGraphicsScene, is to implement three virtual functions of QGraphicsItem.  
 
