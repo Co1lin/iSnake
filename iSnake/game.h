@@ -102,7 +102,6 @@ private:
     void removeFood();
 
     bool handleKeyPressed(QKeyEvent* event);
-    // bool handleMousePressed();
 };
 
 #endif // GAME_H

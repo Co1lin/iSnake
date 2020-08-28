@@ -52,8 +52,6 @@ private:
     QTimer timerShowTime;
     int showTime;
 
-    // QGraphicsScene *scene;
-    // QGraphicsView *view;
     QSharedPointer<MyScene> scene;
     QSharedPointer<QGraphicsView> view;
 

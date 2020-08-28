@@ -24,8 +24,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->graphicsView->setScene(scene.get());
     game = QSharedPointer<Game>::create(scene, this);
     // initialize the scene
-    //scene->setSceneRect(MAP_MINPOS, MAP_MINPOS, MAP_SIZE, MAP_SIZE);
-    scene->setSceneRect(0, 0, MAP_SIZE, MAP_SIZE);
+    scene->setSceneRect(MAP_MINPOS, MAP_MINPOS, MAP_SIZE, MAP_SIZE);
 
     // set speed
     connect(ui->horizontalSlider, &QSlider::valueChanged, ui->spinBoxSpeed, &QSpinBox::setValue);

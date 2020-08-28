@@ -108,14 +108,6 @@ void Snake::paint(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
 
 void Snake::setDirection(const Direction& _direction)
 {
-//    if ((direction == MoveLeft || direction == ForbidRight) && _direction == MoveRight)
-//        return;
-//    if ((direction == MoveRight  || direction == ForbidLeft)&& _direction == MoveLeft)
-//        return;
-//    if ((direction == MoveUp || direction == ForbidDown) && _direction == MoveDown)
-//        return;
-//    if ((direction == MoveDown || direction == ForbidUp) && _direction == MoveUp)
-//        return;
     if ((direction == MoveLeft && _direction == MoveRight) ||
         (direction == MoveRight && _direction == MoveRight) ||
         (direction == MoveUp && _direction == MoveDown) ||
@@ -251,8 +243,6 @@ bool Snake::handleCollisions()
         p->addItem(&headItem);
         Food* food = game->getFood();
         // qDebug() << "here 01!\n";
-//        auto realHeadPos = QGraphicsItem::mapToScene(headItem.pos());
-//        qDebug() << "head: " << realHeadPos.x() << ", " << realHeadPos.y();
         if (food != nullptr && headItem.collidesWithItem(food))
         {   // collide with food, aka eat a food
             qDebug() << "Eat a food!\n";

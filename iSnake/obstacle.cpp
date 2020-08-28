@@ -10,28 +10,6 @@ Obstacle::Obstacle()
 
 QRectF Obstacle::boundingRect() const
 {
-//    qreal minX = obstacles.first().x();
-//    qreal minY = obstacles.first().y();
-//    qreal maxX = obstacles.first().x();
-//    qreal maxY = obstacles.first().y();
-
-//    foreach (auto& p, obstacles)
-//    {
-//        maxX = p.x() > maxX ? p.x() : maxX;
-//        maxY = p.y() > maxY ? p.y() : maxY;
-//        minX = p.x() < minX ? p.x() : minX;
-//        minY = p.y() < minY ? p.y() : minY;
-//    }
-
-//    QPointF tl = mapFromScene(QPointF(minX, minY));
-//    QPointF br = mapFromScene(QPointF(maxX, maxY));
-
-//    QRectF bound = QRectF(tl.x() + fixCenter,  // x
-//                          tl.y() + fixCenter,  // y
-//                          br.x() - tl.x() - 2 * fixCenter, // width
-//                          br.y() - tl.y() - 2 * fixCenter  // height
-//                          );
-//    return bound;
     return QRectF(mapFromScene(QPointF(0, 0)), QSizeF(MAP_MOVE_SIZE, MAP_MOVE_SIZE));
 }
 

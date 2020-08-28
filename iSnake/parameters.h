@@ -16,7 +16,7 @@ const int WALL_SIZE         = 10;
 const int WALL_COUNT        = MAP_SIZE / WALL_SIZE;
 const int BLOCK_SIZE        = 12;
 const int BLOCK_COUNT       = 40;
-/*
+/* for "central use"
 const int MAP_MOVE_SIZE     = MAP_SIZE - 2 * WALL_SIZE; // 480
 const int MAP_MOVE_MININDEX = - BLOCK_COUNT / 2; // -20
 const int MAP_MOVE_MAXINDEX = BLOCK_COUNT / 2 - 1;    // 19
