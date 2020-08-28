@@ -6,7 +6,7 @@ A classic game "snake", the coursework for Qt programming, in summer term 2020.
 
 ## Tips
 
-The program for macOS is "iSnake.app", in "mac" directory.  
+The program for macOS is "iSnake.app".  
 
 The file "logo.snake" is a saved game file, with the snake, food, and obstacles organized  in a special shape which reads "iSnake" as the picture above.  You can load this file to the game and play it!  
 
