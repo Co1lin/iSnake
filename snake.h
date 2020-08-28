@@ -70,6 +70,7 @@ private:
     int speed;
     int steps;
     int timeCounter;
+    bool showHead;
 
     QPointF moveLeft();
     QPointF moveRight();
@@ -77,6 +78,7 @@ private:
     QPointF moveDown();
 
     bool handleCollisions();
+    void turnAround();
 
 };
 

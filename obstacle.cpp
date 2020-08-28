@@ -57,6 +57,8 @@ void Obstacle::paint(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget
 void Obstacle::change(const QPointF& pos)
 {
     QPointF topLeft = topLeftPos(pos);
+    if (!inMoveArea(topLeft))
+        return;
     for (auto iter = obstacles.begin(); iter != obstacles.end(); iter++)
     {
         if (*iter == topLeft)

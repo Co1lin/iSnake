@@ -32,7 +32,7 @@ const int MAP_MOVE_SIZE     = MAP_SIZE - 2 * WALL_SIZE; // 480
 const int MAP_MOVE_MININDEX = 0;
 const int MAP_MOVE_MAXINDEX = BLOCK_COUNT - 1;  // 39
 const int MAP_MOVE_MINPOS   = WALL_SIZE;    // 10
-const int MAP_MOVE_MAXPOS   = MAP_MOVE_MINPOS + BLOCK_COUNT * BLOCK_SIZE;   // 490
+const int MAP_MOVE_MAXPOS   = MAP_MOVE_MINPOS + BLOCK_COUNT * BLOCK_SIZE;   // 490 - 12 = 478
 const int MAP_MINPOS        = 0;
 const int MAP_MAXPOS        = MAP_SIZE;
 

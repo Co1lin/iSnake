@@ -489,7 +489,7 @@
   <action name="actionStart">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/icons/开始.png</normaloff>:/icons/开始.png</iconset>
+     <normaloff>:/icons/start.png</normaloff>:/icons/start.png</iconset>
    </property>
    <property name="text">
     <string>Start</string>
@@ -504,7 +504,7 @@
   <action name="actionPause">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/icons/暂停 停止.png</normaloff>:/icons/暂停 停止.png</iconset>
+     <normaloff>:/icons/pause.png</normaloff>:/icons/pause.png</iconset>
    </property>
    <property name="text">
     <string>Pause</string>
@@ -513,13 +513,13 @@
     <string>Pause</string>
    </property>
    <property name="shortcut">
-    <string>Ctrl+P</string>
+    <string>P</string>
    </property>
   </action>
   <action name="actionResume">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/icons/继续.png</normaloff>:/icons/继续.png</iconset>
+     <normaloff>:/icons/resume.png</normaloff>:/icons/resume.png</iconset>
    </property>
    <property name="text">
     <string>Resume</string>
@@ -528,13 +528,13 @@
     <string>Resume</string>
    </property>
    <property name="shortcut">
-    <string>Ctrl+R</string>
+    <string>R</string>
    </property>
   </action>
   <action name="actionRestart">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/icons/重新开始.png</normaloff>:/icons/重新开始.png</iconset>
+     <normaloff>:/icons/restart.png</normaloff>:/icons/restart.png</iconset>
    </property>
    <property name="text">
     <string>Restart</string>
@@ -549,7 +549,7 @@
   <action name="actionQuit">
    <property name="icon">
     <iconset resource="Resources.qrc">
-     <normaloff>:/icons/退出.png</normaloff>:/icons/退出.png</iconset>
+     <normaloff>:/icons/quit.png</normaloff>:/icons/quit.png</iconset>
    </property>
    <property name="text">
     <string>Quit</string>
@@ -563,7 +563,7 @@
   </action>
   <action name="actionSave">
    <property name="icon">
-    <iconset resource="Resources.qrc">
+    <iconset>
      <normaloff>:/icons/操作-保存.png</normaloff>:/icons/操作-保存.png</iconset>
    </property>
    <property name="text">
@@ -578,7 +578,7 @@
   </action>
   <action name="actionLoad">
    <property name="icon">
-    <iconset resource="Resources.qrc">
+    <iconset>
      <normaloff>:/icons/打开.png</normaloff>:/icons/打开.png</iconset>
    </property>
    <property name="text">
