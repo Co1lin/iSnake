@@ -81,8 +81,8 @@ void MainWindow::connetWithGame()
     connect(game.get(), &Game::stepsChanged, ui->lcdNumberSteps, static_cast<void (QLCDNumber:: *)(int)>(&QLCDNumber::display));
     connect(game.get(), &Game::stepsChanged, [=]
     {
-        int achievement = ui->lcdNumberAchievement->value();
-        int steps = ui->lcdNumberSteps->value();
+        int achievement = static_cast<int>(ui->lcdNumberAchievement->value());
+        int steps = static_cast<int>(ui->lcdNumberSteps->value());
         if (steps == 0)
             ui->lcdNumberScore->display(0);
         else
