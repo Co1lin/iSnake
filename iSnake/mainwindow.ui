@@ -563,8 +563,8 @@
   </action>
   <action name="actionSave">
    <property name="icon">
-    <iconset>
-     <normaloff>:/icons/操作-保存.png</normaloff>:/icons/操作-保存.png</iconset>
+    <iconset resource="Resources.qrc">
+     <normaloff>:/icons/save.png</normaloff>:/icons/save.png</iconset>
    </property>
    <property name="text">
     <string>Save</string>
@@ -578,8 +578,8 @@
   </action>
   <action name="actionLoad">
    <property name="icon">
-    <iconset>
-     <normaloff>:/icons/打开.png</normaloff>:/icons/打开.png</iconset>
+    <iconset resource="Resources.qrc">
+     <normaloff>:/icons/open.png</normaloff>:/icons/open.png</iconset>
    </property>
    <property name="text">
     <string>Load</string>
